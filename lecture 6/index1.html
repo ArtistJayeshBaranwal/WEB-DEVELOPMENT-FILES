@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Form for Academic Bank of Credit (ABC) ID</h1>
+    <form action="Post">
+        <div>
+            <label for="username">Name of Student as per their Aadhaar card.
+            </label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" autofocus>
+        </div>
+        <div>
+            <h2>Gender</h2>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">other</label><br>
+        </div>
+        <div>
+            <h3>Student's date of birth in MM/DD/YYYY format as per their Aadhaar
+                card.</h3>
+            <input type="date" name="Student's date of birth in DD/MM/YYYY format as per their Aadhaar
+            card." id="">
+
+        </div>
+        <div>
+            <h3>Student's 12-digit Aadhaar number</h3>
+            <input type="number" name="quantity" min="1" max="12">
+        </div>
+
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">subscribe to newsletter</label>
+        </div>
+        <div>
+            <label for="comment">Enter your comment here....</label><br>
+            <textarea id="comment" name="comment"  cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <select name="fruits">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="cherry">Cherry</option>
+          </select>
+        </div>
+
+    </form>
+</body>
+
+</html>
