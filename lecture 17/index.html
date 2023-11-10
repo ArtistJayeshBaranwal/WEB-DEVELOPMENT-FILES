@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS box model</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+        .box{
+            background-color: aqua;
+        }
+        .box1{
+            padding: 10px;
+            margin: 35px;
+            color: green;
+            border: 2px solid blue;
+            height: 200px;
+            box-sizing: border-box;
+        }
+        .box2{
+            padding: 10px;
+            margin: 25px;
+            color: green;
+            border: 2px solid black;
+            height: 200px;
+            box-sizing: border-box;
+            color: red;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="box box1">First box in a div</div>
+    <div class="box box2">Second box in a div</div>
+</body>
+</html>
