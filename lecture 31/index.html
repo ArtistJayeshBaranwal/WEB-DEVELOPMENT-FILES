@@ -7,11 +7,48 @@
     <title>Exercise 3 solution:-,kCard design of biodata</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+            padding: 30px;
+        }
+        .card{
+            background-color:aqua;
+            width: 200px;
+            border-radius: 20px;
+            padding: 0 0 40px 0;
+            margin: 4px;
+        }
+        .image{
+            padding: 8px;
+        }
+        .image img{
+            border-radius: 20px;
+        }
+        .links li{
+            display: inline;
+           
+        }
+        .links li a{
+            text-decoration: none;
+            margin-right: 20px;
+            padding: 9px;
+        }
+        .detail span{
+            color:rgb(76, 0, 255);
+        }
+        .detail h2{
+            text-align: center;
+        }
+        .links{
+            text-align: center;
+        }
+
     </style>
 
 </head>
@@ -19,7 +56,7 @@
 <body>
     <div class="card">
         <div class="image">
-            <img src="https://pics.craiyon.com/2023-07-07/a77e688804b24cc6b1dd88d24ddc8448.webp" alt="">
+            <img src="https://pics.craiyon.com/2023-07-07/a77e688804b24cc6b1dd88d24ddc8448.webp" alt="" width="180">
         </div>
         <div class="content">
             <div class="detail">
@@ -35,6 +72,9 @@
                     </li>
                     <li>
                         <a href="#" class="fa fa-linkedin"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="fa fa-whatsapp"></a>
                     </li>
                 </ul>
             </div>
