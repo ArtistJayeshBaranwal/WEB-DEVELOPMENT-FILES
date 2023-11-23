@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3:Card design using html and css</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Poppins:ital,wght@0,200;1,300&display=swap');
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: black;
+            padding: 30px;
+        }
+
+        .card {
+            background-color: white;
+            width: 200px;
+            border-radius: 9px;
+            padding: 0 0 40px 0;
+            margin: 4px;
+        }
+
+        .image {
+            padding: 6px;
+        }
+        .image img{
+            border-radius: 9px;
+        }
+
+        .content{
+            padding: 7px 13px;
+            font-family:'Poppins',sans-serif;
+        }
+        .content p{
+            color: red;
+            font-size: 11px;
+        }
+        .heading{
+            padding: 0 28px 0 14px;
+        }
+        .heading span{
+            border: 1px solid black;
+            border-radius: 9px;
+            font-size: 10px;
+            padding: 0 8px;
+            font-family: 'Baloo Bhai 2',sans-serif;
+        }
+        .button{
+            text-align: center;            
+        }
+        .button button{
+            border-radius: 9px;
+            font-size: 12px;
+            padding: 7px 14px;
+            background-color: skyblue;
+            color: blue;
+            border: none;
+            margin-top: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .button button:hover{
+            background-color: rgb(125, 153, 172);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+
+            <img width="188px" src="http://dc-cdn.s3-ap-southeast-1.amazonaws.com/6a8b5af1d0a21791e6ce4709085310fe8fc32866-tc-img-preview.jpg"
+                alt="Lamborghini Veneno">
+        </div>
+        <div class="heading">
+            <span>Features</span><span>Price</span>
+        </div>
+        <div class="content">
+            <h2>Introduction</h2>
+            <p>The Lamborghini Veneno is a limited production supercar based on the Lamborghini Aventador and was built to celebrate Lamborghini’s 50th anniversary. When introduced in 2013 at a price of US$4,500,000, it was the most expensive production car in the world. The prototype, Car Zero, is finished in grey and includes an Italian flag vinyl on both sides of the car. The engine is a development of the Aventador's 6.5 L V12 and produces 750 PS (552 kW; 740 bhp)</p>
+            <div class="button">
+                <button>Read more</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
